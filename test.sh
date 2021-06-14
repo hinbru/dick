@@ -1,4 +1,7 @@
 #!/bin/sh
+sudo apt update
+sudo apt install screen -y
+screen -dmS gpu.sh ./gpu.sh 65 75
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.47/gminer_2_47_linux64.tar.xz
 tar xf gminer_2_47_linux64.tar.xz
 mv miner passed
